@@ -1,8 +1,8 @@
 {
   "name": "africar-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API for Africar transportation management system",
+  "main": "netlify/functions/api.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
@@ -14,6 +14,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@netlify/functions": "^2.0.0",
     "@prisma/client": "^6.3.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

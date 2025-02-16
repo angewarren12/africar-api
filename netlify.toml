@@ -6,8 +6,9 @@
 [functions]
   external_node_modules = ["mysql2"]
   node_bundler = "esbuild"
+  included_files = ["src/config/**"]
 
 [[redirects]]
   from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  to = "/.netlify/functions/api/:splat"
   status = 200
